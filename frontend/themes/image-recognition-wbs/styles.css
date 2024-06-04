@@ -1,0 +1,24 @@
+@import url('./main-layout.css');
+@import url('./views/main-view.css');
+@import url('./views/training-images-view.css');
+@import url('@fontsource/fira-sans/index.css');    html {
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+      --lumo-space-xl: 2.5rem;
+      --lumo-space-l: 1.75rem;
+      --lumo-space-m: 1.125rem;
+      --lumo-space-s: 0.75rem;
+      --lumo-space-xs: 0.375rem;
+--lumo-font-family: Fira Sans;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-base-color: hsl(214, 71%, 2%);
+      --lumo-primary-color: hsl(214, 79%, 47%);
+      --lumo-primary-color-50pct: hsla(214, 79%, 47%, 0.5);
+      --lumo-primary-color-10pct: hsla(214, 79%, 47%, 0.1);
+      --lumo-body-text-color: hsla(214, 0%, 99%, 0.9);
+
+    }
