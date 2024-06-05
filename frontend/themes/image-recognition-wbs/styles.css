@@ -1,3 +1,4 @@
+@import "theme-editor.css";
 @import url('./main-layout.css');
 @import url('./views/main-view.css');
 @import url('./views/training-images-view.css');    html {

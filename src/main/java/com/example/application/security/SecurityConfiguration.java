@@ -28,7 +28,7 @@ public class SecurityConfiguration extends VaadinWebSecurity {
         // Icons from the line-awesome addon
         http.authorizeHttpRequests(authorize -> authorize
                 .requestMatchers(new AntPathRequestMatcher("/line-awesome/**/*.svg")).permitAll());
-
+        http.authorizeHttpRequests( authorize ->  authorize.requestMatchers("/signup").permitAll());
         super.configure(http);
         setLoginView(http, LoginView.class);
     }
