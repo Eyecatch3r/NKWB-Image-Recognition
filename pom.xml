@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- Project from https://start.vaadin.com/project/4b891981-3f2a-4b99-a427-218b5d504e03 -->
+    <!-- Project from https://start.vaadin.com/project/761f6501-c2df-41e7-b937-767fa7b6b00c -->
     <groupId>com.example.application</groupId>
     <artifactId>image-recognition-wbs</artifactId>
     <name>image-recognition-wbs</name>
